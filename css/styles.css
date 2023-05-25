@@ -24,6 +24,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .link {
@@ -62,6 +63,9 @@ body {
 }
 
 /* CONTACTS */
+.address {
+  font-style: normal;
+}
 .contacts-link {
   color: #434455;
 }
@@ -78,17 +82,25 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* BENEFITS */
@@ -96,6 +108,7 @@ body {
   font-weight: var(--third-title-weight);
   font-size: var(--third-title-size);
   line-height: var(--third-title-height);
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--title-color);
 }
@@ -118,15 +131,21 @@ body {
   font-weight: var(--second-title-weight);
   font-size: var(--second-title-size);
   line-height: var(--second-title-height);
+  letter-spacing: 0.02em;
   text-transform: var(--second-title-transform);
   text-align: center;
   color: var(--title-color);
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-list-title {
   font-weight: var(--third-title-weight);
   font-size: var(--third-title-size);
   line-height: var(--third-title-height);
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--title-color);
 }
@@ -140,10 +159,10 @@ body {
   background-color: var(--footer-background-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-logo-color);
@@ -161,15 +180,26 @@ body {
 
 /* MAIN */
 .main-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: var(--third-title-weight);
+  font-size: 16px;
+  letter-spacing: 0.04em;
   text-align: center;
+  background-color: #f4f4fd;
   color: var(--logo-color);
+  cursor: pointer;
 }
 
+.main-btn:hover,
+.main-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* CATEGORIES */
 .categories-title {
-  font-weight: var(--third-title-weight);
-  font-size: var(--third-title-size);
-  line-height: var(--third-title-height);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
