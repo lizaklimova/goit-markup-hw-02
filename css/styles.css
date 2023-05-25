@@ -6,6 +6,7 @@
   --hero-background-color: #2e2f42;
   --team-background-color: #f4f4fd;
   --footer-background-color: #2e2f42;
+  --categories-text-color: #434455;
   --second-title-weight: 700;
   --second-title-size: 36px;
   --second-title-height: 1.11;
@@ -41,7 +42,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
@@ -137,7 +137,7 @@ body {
   color: var(--title-color);
 }
 
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 
@@ -183,6 +183,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: var(--third-title-weight);
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   background-color: #f4f4fd;
@@ -202,4 +203,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+.categories-text {
+  color: var(--categories-text-color);
 }
