@@ -1,0 +1,175 @@
+:root {
+  --logo-color: #4d5ae5;
+  --title-color: #2e2f42;
+  --footer-logo-color: #4d5ae5;
+  --hover-color: #404bbf;
+  --hero-background-color: #2e2f42;
+  --team-background-color: #f4f4fd;
+  --footer-background-color: #2e2f42;
+  --second-title-weight: 700;
+  --second-title-size: 36px;
+  --second-title-height: 1.11;
+  --second-title-transform: capitalize;
+  --third-title-weight: 500;
+  --third-title-size: 20px;
+  --third-title-height: 1.2;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+/* HEADER */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.link .header-logo-design {
+  color: #2e2f42;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--title-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--hover-color);
+}
+
+/* CONTACTS */
+.contacts-link {
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--hover-color);
+}
+/* HERO */
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* BENEFITS */
+.benefits-title {
+  font-weight: var(--third-title-weight);
+  font-size: var(--third-title-size);
+  line-height: var(--third-title-height);
+  text-align: center;
+  color: var(--title-color);
+}
+
+/* EXAMPLES */
+.examples-title {
+  font-weight: var(--second-title-weight);
+  font-size: var(--second-title-size);
+  line-height: var(--second-title-height);
+  text-transform: var(--second-title-transform);
+  text-align: center;
+  color: var(--title-color);
+}
+
+/* TEAM */
+.team {
+  background-color: var(--team-background-color);
+}
+.team-title {
+  font-weight: var(--second-title-weight);
+  font-size: var(--second-title-size);
+  line-height: var(--second-title-height);
+  text-transform: var(--second-title-transform);
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team-list-title {
+  font-weight: var(--third-title-weight);
+  font-size: var(--third-title-size);
+  line-height: var(--third-title-height);
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team-list-text {
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-logo-color);
+}
+
+.footer-logo-design {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+/** ------------------PORTFOLIO------------------ */
+
+/* MAIN */
+.main-btn {
+  font-weight: var(--third-title-weight);
+  text-align: center;
+  color: var(--logo-color);
+}
+
+/* CATEGORIES */
+.categories-title {
+  font-weight: var(--third-title-weight);
+  font-size: var(--third-title-size);
+  line-height: var(--third-title-height);
+  color: var(--title-color);
+}
