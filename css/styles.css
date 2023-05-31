@@ -1,13 +1,21 @@
 :root {
-  --logo-color: #4d5ae5;
-  --title-color: #2e2f42;
-  --footer-logo-color: #4d5ae5;
-  --hover-color: #404bbf;
+  --main-text-color: #434455;
+  --main-logo-color: #4d5ae5;
+  --secondary-logo-header: #2e2f42;
+  --contacts-color: #434455;
+  --white-for-project: #ffffff;
   --hero-background-color: #2e2f42;
+  --hero-button-background: #4d5ae5;
+  --hover-color: #404bbf;
+  --title-color: #2e2f42;
   --team-background-color: #f4f4fd;
   --footer-background-color: #2e2f42;
   --categories-text-color: #434455;
-  --second-title-weight: 700;
+  --footer-logo-color: #4d5ae5;
+  --secondary-logo-footer: #f4f4fd;
+  --footer-text: #f4f4fd;
+  --main-button-background: #f4f4fd;
+  --main-button-text: #4d5ae5;
   --second-title-size: 36px;
   --second-title-height: 1.11;
   --second-title-transform: capitalize;
@@ -18,14 +26,10 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--main-text-color);
+  background-color: var(--white-for-project);
 }
 
 .link {
@@ -38,22 +42,21 @@ body {
 /* HEADER */
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color);
+  color: var(--main-logo-color);
 }
 
 .link .header-logo-design {
-  color: #2e2f42;
+  color: var(--secondary-logo-header);
 }
 
 .header-menu-link {
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--title-color);
 }
 
@@ -67,7 +70,7 @@ body {
   font-style: normal;
 }
 .contacts-link {
-  color: #434455;
+  color: var(--contacts-color);
 }
 
 .contacts-link:hover,
@@ -79,12 +82,11 @@ body {
   background-color: var(--hero-background-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--white-for-project);
 }
 
 .hero-btn {
@@ -93,14 +95,14 @@ body {
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-for-project);
+  background-color: var(--hero-button-background);
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 
 /* BENEFITS */
@@ -109,13 +111,11 @@ body {
   font-size: var(--third-title-size);
   line-height: var(--third-title-height);
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--title-color);
 }
 
 /* EXAMPLES */
 .examples-title {
-  font-weight: var(--second-title-weight);
   font-size: var(--second-title-size);
   line-height: var(--second-title-height);
   text-transform: var(--second-title-transform);
@@ -128,7 +128,6 @@ body {
   background-color: var(--team-background-color);
 }
 .team-title {
-  font-weight: var(--second-title-weight);
   font-size: var(--second-title-size);
   line-height: var(--second-title-height);
   letter-spacing: 0.02em;
@@ -138,7 +137,7 @@ body {
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--white-for-project);
 }
 
 .team-list-title {
@@ -169,11 +168,11 @@ body {
 }
 
 .footer-logo-design {
-  color: #f4f4fd;
+  color: var(--secondary-logo-footer);
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--footer-text);
 }
 
 /** ------------------PORTFOLIO----------------- */
@@ -186,15 +185,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  background-color: #f4f4fd;
-  color: var(--logo-color);
+  background-color: var(--main-button-background);
+  color: var(--main-button-text);
   cursor: pointer;
 }
 
 .main-btn:hover,
 .main-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-for-project);
+  background-color: var(--hover-color);
 }
 /* CATEGORIES */
 .categories-title {
